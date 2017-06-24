@@ -14,7 +14,8 @@
   "require": {
     "php": "^7.0",
     "doctrine/annotations": "^1.4",
-    "phpunit/phpunit": "^6.2"
+    "phpunit/phpunit": "^6.2",
+    "psr/cache": "^1.0"
   },
   "require-dev": {
     "php": "^7.0"
