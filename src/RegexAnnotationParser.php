@@ -32,7 +32,7 @@ class RegexAnnotationParser
         (?P<boolean>true|false) |
         (?P<annotation>
             @(?<name>' .self::CLASS_PATTERN. ')
-            (?:[\s\*]*(\((?<args>(?:[^()]|(?10)|\()*)\)))?
+            (?:[\s\*]*(\((?<args>(?:[^()]|(?11)|\()*)\)))?
         )';
 
     private const ENTRIES_REGEX =
